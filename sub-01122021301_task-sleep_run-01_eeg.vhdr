@@ -1,0 +1,64 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-01122021301_task-sleep_run-01_eeg.eeg
+MarkerFile=sub-01122021301_task-sleep_run-01_eeg.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=10
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=F3,,0.5,µV
+Ch2=F4,,0.5,µV
+Ch3=C3,,0.5,µV
+Ch4=C4,,0.5,µV
+Ch5=O1,,0.5,µV
+Ch6=O2,,0.5,µV
+Ch7=LEOG,,0.5,µV
+Ch8=REOG,,0.5,µV
+Ch9=LEMG,,0.5,µV
+Ch10=REMG,,0.5,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.23.0004
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 10
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Series Res. [kOhm] Gradient         Offset
+1     F3          1                0.5 µV             10              250              Off                0                 
+2     F4          2                0.5 µV             10              250              Off                0                 
+3     C3          3                0.5 µV             10              250              Off                0                 
+4     C4          4                0.5 µV             10              250              Off                0                 
+5     O1          5                0.5 µV             10              250              Off                0                 
+6     O2          6                0.5 µV             10              250              Off                0                 
+7     LEOG        7                0.5 µV             10              250              Off                0                 
+8     REOG        8                0.5 µV             10              250              Off                0                 
+9     LEMG        9                0.5 µV             10              250              Off                0                 
+10    REMG        10               0.5 µV             10              250              Off                0                 
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+No impedance values available at 22:53:02!
